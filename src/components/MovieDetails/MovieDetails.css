@@ -1,0 +1,125 @@
+.movie-details-container {
+  margin-top: 50px;
+}
+
+.movie-details-container p {
+  color: #fff;
+}
+
+.movie-details-wrapper img {
+  width: 1400px;
+}
+
+.movie-details-overlay {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px),
+    rgba(31.5, 31.5, 31.5, 0.84) 50%,
+    rgba(31.5, 31.5, 31.5, 0.84) 100%
+  );
+}
+
+.movie-details-single-column {
+  max-width: 1400px;
+  width: 100%;
+  padding: 30px 40px;
+}
+
+.movie-details-content {
+  display: flex;
+  flex-wrap: no-wrap;
+  column-gap: 50px;
+}
+
+.poster-wrapper {
+  height: auto;
+  color: #c1c1c1;
+  min-width: 300px;
+  width: 300px;
+}
+
+.header-poster-wrapper {
+  width: 100%;
+}
+
+.header-poster-title {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-poster-title h3 {
+  line-height: 1;
+  font-size: 2rem;
+}
+
+.header-poster-title span {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.poster-wrapper img {
+  min-width: 300px;
+  width: 300px;
+}
+
+.system-rated {
+  padding: 3px 7px;
+  border: 1px solid #c1c1c1;
+  margin-right: 5px;
+}
+
+.header-poster-details {
+  margin-top: 7px;
+}
+
+.header-poster-imdbrating {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-poster-imdbrating span {
+  font-size: 1.2rem;
+}
+
+.header-poster-overview h3 {
+  margin-top: 20px;
+}
+
+.header-poster-actors {
+  margin-top: 20px;
+}
+
+.header-poster-actors span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.header-poster-actors span:first-child::before {
+  content: " ⭐ ";
+}
+
+.header-poster-actors span::after {
+  content: " ⭐ ";
+}
+
+.header-poster-actors span:last-child::after {
+  content: "";
+}
+
+.back-link-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.back-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #c1c1c1;
+}

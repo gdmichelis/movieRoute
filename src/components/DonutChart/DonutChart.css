@@ -1,0 +1,13 @@
+.chart-container svg {
+  height: auto;
+}
+
+.chart-text {
+  font-size: 1.8rem;
+  fill: #fff9ff;
+}
+
+.chart-text-percentage {
+  font-size: 12px;
+  fill: #fff;
+}

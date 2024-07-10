@@ -1,0 +1,39 @@
+.resources-table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.resources-table-container table {
+  margin-top: 12px;
+}
+
+.resources-table-container td {
+  text-align: start;
+  padding-left: 12px;
+}
+
+.resources-table-container table,
+tr,
+td {
+  border: 1px solid #792137;
+}
+
+.resources-table-container thead {
+  background: rgba(32, 40, 62, 0.8);
+}
+
+.resources-table-container a:visited {
+  color: #f00;
+}
+
+.resources-table-container a {
+  text-decoration: none;
+  color: #bebebe;
+}
+
+.resources-table-container a:hover {
+  color: #5a4af4;
+}

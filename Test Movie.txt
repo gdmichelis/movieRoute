@@ -1,0 +1,8 @@
+{"title":"Home Alone",
+"systemRated":"PG",
+"releasedYear":"16 Nov 1990",
+"duration":"103 min",
+"genre":"Comedy, Family",
+"imageURL":"https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+"imdbRating":"7.7"
+}

@@ -1,0 +1,52 @@
+:root {
+  --blue-purple: #0d6efd;
+  --blue-navy: #130b54;
+}
+
+.pagination-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pagination-link {
+  list-style-type: none;
+}
+
+.pagination-anchor {
+  cursor: pointer;
+  padding: 10px 12px;
+  border: 1px solid #fff;
+  color: #ccc;
+  margin: 5px;
+}
+
+.active {
+  background-color: var(--blue-purple);
+  border: 1px solid var(--blue-purple);
+}
+
+li:has(a.active) + li::after,
+li:has(+ li a.active)::before {
+  content: "...";
+  color: #ccc;
+  font-size: 18px;
+}
+
+li:nth-child(2)::before,
+li:last-of-type::after {
+  content: "" !important;
+}
+
+.pagination-previous,
+.pagination-next {
+  cursor: pointer;
+  color: #ccc;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}

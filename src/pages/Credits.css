@@ -1,0 +1,32 @@
+.tmdb-logo-credits-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.tmdb-logo-credits-container img {
+  width: 100px;
+}
+
+.tmdb-logo-credits-header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tmdb-logo-credits-header-container h2 {
+  margin-bottom: 25px;
+  align-self: center;
+}
+
+.tmdb-logo-credits-header-container p {
+  align-self: center;
+  color: #b0b4bf;
+}
+
+.tmdb-container {
+  max-width: 1400px;
+  margin-top: 40px;
+  margin-inline: auto;
+}

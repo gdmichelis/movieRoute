@@ -1,0 +1,214 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "title": "Titanic",
+      "releasedYear": "1997 Dec 19",
+      "genre": "Drama, Romance",
+      "imdbRating": 7.9,
+      "systemRated": "PG-13",
+      "duration": "194"
+    },
+    {
+      "id": 2,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BZTRjYzcxNTktMWUwMi00N2UwLWEyODYtOTIzZDE3ZjVmMGRhXkEyXkFqcGdeQXVyMjI0NTA4NzA@._V1_SX300.jpg",
+      "title": "Predator",
+      "releasedYear": "1987 Jun 12",
+      "genre": "Action, Adventure, Horror",
+      "imdbRating": 7.8,
+      "systemRated": "R",
+      "duration": "107"
+    },
+    {
+      "id": 3,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BNWY1MDJkZGUtZTE2OS00ODZiLTlmNzQtMDZjNzM2ZjkwM2QxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "title": "Sleepless in Seattle",
+      "releasedYear": "1993 Jun 25",
+      "genre": "Comedy, Drama, Romance",
+      "imdbRating": 6.8,
+      "systemRated": "PG",
+      "duration": "105"
+    },
+    {
+      "id": 4,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BZWQ0OTQ3ODctMmE0MS00ODc2LTg0ZTEtZWIwNTUxOGExZTQ4XkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+      "title": "Batman",
+      "releasedYear": "1989 Jun 23",
+      "genre": "Action, Adventure",
+      "imdbRating": 7.5,
+      "systemRated": "PG-13",
+      "duration": "126"
+    },
+    {
+      "id": 5,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMjMyMTIyOTc0N15BMl5BanBnXkFtZTgwODY1NTk4NjE@._V1_SX300.jpg",
+      "title": "Kindergarten Cop",
+      "releasedYear": "1990 Dec 21",
+      "genre": "Action, Comedy, Crime",
+      "imdbRating": 6.2,
+      "systemRated": "PG-13",
+      "duration": "111"
+    },
+    {
+      "id": 6,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "title": "Titanic",
+      "releasedYear": "1997 Dec 19",
+      "genre": "Drama, Romance",
+      "imdbRating": 7.9,
+      "systemRated": "PG-13",
+      "duration": "194"
+    },
+    {
+      "id": 7,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BZTRjYzcxNTktMWUwMi00N2UwLWEyODYtOTIzZDE3ZjVmMGRhXkEyXkFqcGdeQXVyMjI0NTA4NzA@._V1_SX300.jpg",
+      "title": "Predator",
+      "releasedYear": "1987 Jun 12",
+      "genre": "Action, Adventure, Horror",
+      "imdbRating": 7.8,
+      "systemRated": "R",
+      "duration": "107"
+    },
+    {
+      "id": 8,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BNWY1MDJkZGUtZTE2OS00ODZiLTlmNzQtMDZjNzM2ZjkwM2QxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "title": "Sleepless in Seattle",
+      "releasedYear": "1993 Jun 25",
+      "genre": "Comedy, Drama, Romance",
+      "imdbRating": 6.8,
+      "systemRated": "PG",
+      "duration": "105"
+    },
+    {
+      "id": 9,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BZWQ0OTQ3ODctMmE0MS00ODc2LTg0ZTEtZWIwNTUxOGExZTQ4XkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+      "title": "Batman",
+      "releasedYear": "1989 Jun 23",
+      "genre": "Action, Adventure",
+      "imdbRating": 7.5,
+      "systemRated": "PG-13",
+      "duration": "126"
+    },
+    {
+      "id": 10,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMjMyMTIyOTc0N15BMl5BanBnXkFtZTgwODY1NTk4NjE@._V1_SX300.jpg",
+      "title": "Kindergarten Cop",
+      "releasedYear": "1990 Dec 21",
+      "genre": "Action, Comedy, Crime",
+      "imdbRating": 6.2,
+      "systemRated": "PG-13",
+      "duration": "111"
+    },
+    {
+      "id": 11,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "title": "Titanic",
+      "releasedYear": "1997 Dec 19",
+      "genre": "Drama, Romance",
+      "imdbRating": 7.9,
+      "systemRated": "PG-13",
+      "duration": "194"
+    },
+    {
+      "id": 12,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BZTRjYzcxNTktMWUwMi00N2UwLWEyODYtOTIzZDE3ZjVmMGRhXkEyXkFqcGdeQXVyMjI0NTA4NzA@._V1_SX300.jpg",
+      "title": "Predator",
+      "releasedYear": "1987 Jun 12",
+      "genre": "Action, Adventure, Horror",
+      "imdbRating": 7.8,
+      "systemRated": "R",
+      "duration": "107"
+    },
+    {
+      "id": 13,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BNWY1MDJkZGUtZTE2OS00ODZiLTlmNzQtMDZjNzM2ZjkwM2QxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "title": "Sleepless in Seattle",
+      "releasedYear": "1993 Jun 25",
+      "genre": "Comedy, Drama, Romance",
+      "imdbRating": 6.8,
+      "systemRated": "PG",
+      "duration": "105"
+    },
+    {
+      "id": 14,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BZWQ0OTQ3ODctMmE0MS00ODc2LTg0ZTEtZWIwNTUxOGExZTQ4XkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+      "title": "Batman",
+      "releasedYear": "1989 Jun 23",
+      "genre": "Action, Adventure",
+      "imdbRating": 7.5,
+      "systemRated": "PG-13",
+      "duration": "126"
+    },
+    {
+      "id": 15,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMjMyMTIyOTc0N15BMl5BanBnXkFtZTgwODY1NTk4NjE@._V1_SX300.jpg",
+      "title": "Kindergarten Cop",
+      "releasedYear": "1990 Dec 21",
+      "genre": "Action, Comedy, Crime",
+      "imdbRating": 6.2,
+      "systemRated": "PG-13",
+      "duration": "111"
+    },
+    {
+      "id": 16,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "title": "Titanic",
+      "releasedYear": "1997 Dec 19",
+      "genre": "Drama, Romance",
+      "imdbRating": 7.9,
+      "systemRated": "PG-13",
+      "duration": "194"
+    },
+    {
+      "id": 17,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BZTRjYzcxNTktMWUwMi00N2UwLWEyODYtOTIzZDE3ZjVmMGRhXkEyXkFqcGdeQXVyMjI0NTA4NzA@._V1_SX300.jpg",
+      "title": "Predator",
+      "releasedYear": "1987 Jun 12",
+      "genre": "Action, Adventure, Horror",
+      "imdbRating": "7.8",
+      "systemRated": "R",
+      "duration": "107"
+    },
+    {
+      "id": 18,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BNWY1MDJkZGUtZTE2OS00ODZiLTlmNzQtMDZjNzM2ZjkwM2QxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "title": "Sleepless in Seattle",
+      "releasedYear": "1993 Jun 25",
+      "genre": "Comedy, Drama, Romance",
+      "imdbRating": 6.8,
+      "systemRated": "PG",
+      "duration": "105"
+    },
+    {
+      "id": 19,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BZWQ0OTQ3ODctMmE0MS00ODc2LTg0ZTEtZWIwNTUxOGExZTQ4XkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+      "title": "Batman",
+      "releasedYear": "1989 Jun 23",
+      "genre": "Action, Adventure",
+      "imdbRating": 7.5,
+      "systemRated": "PG-13",
+      "duration": "126"
+    },
+    {
+      "id": 20,
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMjMyMTIyOTc0N15BMl5BanBnXkFtZTgwODY1NTk4NjE@._V1_SX300.jpg",
+      "title": "Kindergarten Cop",
+      "releasedYear": "1990 Dec 21",
+      "genre": "Action, Comedy, Crime",
+      "imdbRating": 6.2,
+      "systemRated": "PG-13",
+      "duration": "111"
+    },
+    {
+      "id": 21,
+      "title": "Home Alone",
+      "imageURL": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "imdbRating": "7.7",
+      "releasedYear": "1990-11-16",
+      "duration": "103",
+      "systemRated": "PG",
+      "genre": "Comedy, Family"
+    }
+  ]
+}
