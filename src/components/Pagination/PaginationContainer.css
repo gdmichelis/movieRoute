@@ -18,3 +18,21 @@
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 540px) {
+  .pagination-inner {
+    width: 100%;
+  }
+
+  .pagination-box {
+    padding-left: 0;
+  }
+  .pagination-box a {
+    padding: 8px 10px;
+  }
+
+  .pagination-previous,
+  .pagination-next {
+    padding: 8px;
+  }
+}

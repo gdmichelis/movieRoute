@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   z-index: 20;
@@ -41,4 +41,23 @@
 .copyright-container p,
 .icons-right-container p {
   color: #a1a1a1;
+}
+
+@media screen and (max-width: 540px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .copyright-container,
+  .icons-right-container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
+
+  .copyright-container p,
+  .icons-right-container p {
+    font-size: 0.9rem;
+  }
 }

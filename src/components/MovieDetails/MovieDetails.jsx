@@ -78,8 +78,7 @@ export default function MovieDetails() {
         className="movie-details-wrapper"
         style={{
           backgroundImage: `url(https://image.tmdb.org/t/p/original${poster})`,
-          maxHeight: "570px",
-          height: "570px",
+          height: "max-content",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "left calc((50vw - 170px) - 340px) top",

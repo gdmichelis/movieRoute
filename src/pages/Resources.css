@@ -37,3 +37,14 @@ td {
 .resources-table-container a:hover {
   color: #5a4af4;
 }
+
+@media screen and (max-width: 440px) {
+  .resources-table-container {
+    overflow-x: scroll;
+    align-items: flex-start;
+  }
+
+  .resources-table-container table {
+    width: 450px;
+  }
+}

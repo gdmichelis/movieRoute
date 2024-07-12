@@ -99,3 +99,25 @@ label {
 .form-body {
   padding: 30px 20px 0 20px;
 }
+
+@media screen and (max-width: 420px) {
+  .add-movie-form-outer {
+    width: max-content;
+  }
+
+  .add-movie-container {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 650px) {
+  .add-movie-container {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1281px) {
+  .add-movie-container {
+    margin-bottom: 100px;
+  }
+}

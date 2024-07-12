@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   row-gap: 20px;
+  padding: 0 20px 0 20px;
+  margin: 20px 0 20px 0;
 }
 
 .tmdb-logo-credits-container img {
@@ -13,6 +15,8 @@
 .tmdb-logo-credits-header-container {
   display: flex;
   flex-direction: column;
+  padding: 0 20px 0 20px;
+  margin: 20px 0 20px 0;
 }
 
 .tmdb-logo-credits-header-container h2 {

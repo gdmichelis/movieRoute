@@ -57,16 +57,6 @@
   }
 }
 
-@media screen and (min-width: 1101px) and (max-width: 1300px) {
-  .sort-container {
-    width: 50% !important;
-  }
-
-  .sort-inner {
-    width: 20%;
-  }
-}
-
 @media screen and (min-width: 1023px) and (max-width: 1100px) {
   .sort-container {
     width: 70% !important;
@@ -74,5 +64,15 @@
 
   .sort-inner {
     width: 30%;
+  }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1300px) {
+  .sort-container {
+    width: 50% !important;
+  }
+
+  .sort-inner {
+    width: 40%;
   }
 }

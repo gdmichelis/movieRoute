@@ -48,10 +48,33 @@
 
 .user-message-container img {
   width: 30px;
+  height: 30px;
 }
 
 @media screen and (max-width: 540px) {
-  .header {
-    font-size: 1.4rem;
+  .heading-container {
+    padding: 0 10px;
+  }
+  .heading-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .heading-container p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo-container img {
+    width: 120px;
+  }
+
+  .user-message-container img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .user-message-container p {
+    font-size: 0.9rem;
   }
 }

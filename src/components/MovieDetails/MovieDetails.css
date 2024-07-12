@@ -31,7 +31,7 @@
 
 .movie-details-content {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   column-gap: 50px;
 }
 
@@ -122,4 +122,59 @@
   text-decoration: none;
   font-size: 1.2rem;
   color: #c1c1c1;
+}
+
+@media screen and (max-width: 540px) {
+  .movie-details-content {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+
+  .header-poster-wrapper {
+    margin-bottom: 50px;
+  }
+
+  .header-poster-title h3 {
+    font-size: 1.5rem;
+  }
+
+  .header-poster-title h3 span {
+    font-size: 1.3rem;
+  }
+
+  .header-poster-details {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .header-poster-overview h3,
+  .header-poster-actors h3 {
+    font-size: 1.1rem;
+  }
+
+  .header-poster-overview p,
+  .header-poster-actors div span {
+    font-size: 0.9rem;
+  }
+
+  .header-poster-imdbrating span {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 1024px) {
+  .movie-details-wrapper {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .movie-details-wrapper {
+    margin-bottom: 80px;
+  }
+
+  .movie-details-container {
+    margin-bottom: 200px;
+  }
 }

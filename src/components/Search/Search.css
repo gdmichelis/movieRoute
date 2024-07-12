@@ -86,6 +86,20 @@ form.search-form {
   .search-inner {
     width: 80%;
   }
+
+  .search-input {
+    height: 40px;
+  }
+
+  .search-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .search-btn img {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 950px) {
