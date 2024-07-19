@@ -6,7 +6,7 @@ export const fetchMovies = createAsyncThunk(
   async (paginationData) => {
     const { currentPage, MOVIES_PER_PAGE } = paginationData;
     const response = await fetch(
-      `${import.meta.env.VITE_API_BASE_URL}/movies?_page=${
+      `${process.env.VITE_API_BASE_URL}/movies?_page=${
         currentPage + 1
       }&_limit=${MOVIES_PER_PAGE}`
     );
@@ -21,14 +21,11 @@ export const fetchMovies = createAsyncThunk(
 export const addMovie = createAsyncThunk(
   "movies/addMovie",
   async (newMovie) => {
-    const response = await fetch(
-      `${import.meta.env.VITE_API_BASE_URL}/movies`,
-      {
-        method: "POST",
-        body: JSON.stringify(newMovie),
-        headers: { "Content-Type": "application/json" },
-      }
-    );
+    const response = await fetch(`${process.env.VITE_API_BASE_URL}/movies`, {
+      method: "POST",
+      body: JSON.stringify(newMovie),
+      headers: { "Content-Type": "application/json" },
+    });
     const data = response.json();
     return data;
   }
@@ -38,7 +35,7 @@ export const editMovie = createAsyncThunk(
   "movies/editMovie",
   async ({ id, updatedMovie }) => {
     const response = await fetch(
-      `${import.meta.env.VITE_API_BASE_URL}/movies/${id}`,
+      `${process.env.VITE_API_BASE_URL}/movies/${id}`,
       {
         method: "PUT",
         body: JSON.stringify(updatedMovie),
@@ -55,7 +52,7 @@ export const editMovie = createAsyncThunk(
 export const deleteMovie = createAsyncThunk(
   "movies/deleteMovie",
   async (id) => {
-    fetch(`${import.meta.env.VITE_API_BASE_URL}/movies/${id}`, {
+    fetch(`${process.env.VITE_API_BASE_URL}/movies/${id}`, {
       method: "DELETE",
     });
     return id;
@@ -66,7 +63,7 @@ export const searchedMovie = createAsyncThunk(
   "movies/searchMovie",
   async (searchText) => {
     const response = await fetch(
-      `${import.meta.env.VITE_API_BASE_URL}/movies?q=${searchText}`
+      `${process.env.VITE_API_BASE_URL}/movies?q=${searchText}`
     );
 
     const data = await response.json();
@@ -80,9 +77,7 @@ export const sortedMovie = createAsyncThunk(
   async (sortData) => {
     const { sortText: sortValue, order: orderValue } = sortData;
     const response = await fetch(
-      `${
-        import.meta.env.VITE_API_BASE_URL
-      }/movies?_sort=${sortValue}&_order=${orderValue}`
+      `${process.env.VITE_API_BASE_URL}/movies?_sort=${sortValue}&_order=${orderValue}`
     );
     const data = response.json();
     return data;
@@ -93,7 +88,7 @@ export const filteredMovie = createAsyncThunk(
   "movies/filterMovie",
   async (filterText) => {
     const response = await fetch(
-      `${import.meta.env.VITE_API_BASE_URL}/movies?genre_like=${filterText}`
+      `${process.env.VITE_API_BASE_URL}/movies?genre_like=${filterText}`
     );
     const data = response.json();
     return data;

@@ -17,10 +17,6 @@ function PaginationLinks({ currentPage, setCurrentPage }) {
   const paginationLastItem = paginationItemsArray[numberOfPages - 1];
   const paginationData = { currentPage, MOVIES_PER_PAGE };
 
-  useEffect(function () {
-    dispatch(fetchMovies(paginationData));
-  }, []);
-
   useEffect(
     function () {
       dispatch(fetchMovies(paginationData));
