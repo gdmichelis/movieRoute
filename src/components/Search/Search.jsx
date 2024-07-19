@@ -1,5 +1,5 @@
-import search from "../../assets/icons/search.png";
-import clear from "../../assets/icons/close.png";
+import search from "../../assets/search.png";
+import close from "../../assets/close.png";
 import { useDispatch } from "react-redux";
 import { useRef } from "react";
 import "./Search.css";
@@ -40,7 +40,7 @@ export default function Search({ currentPage, searchText, setSearchText }) {
               dispatch(fetchMovies(paginationData));
             }}
           >
-            <img src={clear} alt="clear" />
+            <img src={close} alt="clear" />
           </button>
 
           <button type="submit" className="search-btn">

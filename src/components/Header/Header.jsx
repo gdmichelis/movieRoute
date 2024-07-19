@@ -1,5 +1,7 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
+import user from "../../assets/user.png";
 
 export default function Header() {
   return (
@@ -7,11 +9,11 @@ export default function Header() {
       <nav className="navbar">
         <div className="logo-container">
           <Link to="/">
-            <img src="src/assets/icons/logo.png" alt="Logo" />
+            <img src={logo} alt="Logo" />
           </Link>
         </div>
         <div className="user-message-container">
-          <img src="src/assets/icons/user.png" alt="user" />
+          <img src={user} alt="user" />
           <p>Welcome, Georgios</p>
         </div>
       </nav>

@@ -1,6 +1,6 @@
 import "./MovieItem.css";
-import Pencil from "../../assets/icons/pencil.svg";
-import Trash from "../../assets/icons/trash.svg";
+import Pencil from "../../assets/pencil.svg";
+import Trash from "../../assets/trash.svg";
 import { Link } from "react-router-dom";
 
 export default function MovieItem({
